@@ -17,3 +17,4 @@ Call this file in your registration page
 include('/fraudprotection/fraudpro-detect.php');
 ?>
 + fraudpro-detail.php (Get FULL detail report of anyone who's black listed.)
++ fp-log.php (log every new fraud entry to fraud.log)
