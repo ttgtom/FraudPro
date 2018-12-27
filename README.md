@@ -16,3 +16,4 @@ Call this file in your registration page
 <?php
 include('/fraudprotection/fraudpro-detect.php');
 ?>
++ fraudpro-detail.php (Get FULL detail report of anyone who's black listed.)
