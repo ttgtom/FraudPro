@@ -5,7 +5,7 @@ include 'conf.php';
     $searchterm = $_GET['searchterm']; //Types: email, ip, phone+
    $site = "www.example.com";
    //include full domain(ex. example.com)
-$source = "https://fraudpro.org/api/detect.php"
+$source = file_get_contents('https://fraudpro.org/api/detect.php');
 //If you plan to use our system, leave this.
 //If the information entered, is in our database, we will return a boolean response. 
    if ($source = "true"){
