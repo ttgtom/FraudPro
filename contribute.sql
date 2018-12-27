@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 
 --
 -- Table structure for table `fraud_records`
---
+-- 
 
 CREATE TABLE `fraud_records` (
   `id` int(225) NOT NULL,
